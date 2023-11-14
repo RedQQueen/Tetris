@@ -1,3 +1,8 @@
+.container {
+    display: flex;
+    flex: wrap;
+}
+
 .grid {
     width: 200px;
     height: 400px;
@@ -7,6 +12,16 @@
     flex-wrap: wrap;
    align-items: flex-start;
    align-content: flex-start;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+
 }
 
 .grid div {
@@ -22,3 +37,16 @@ h3, button {
 .tetromino {
     background-color: blue;
 }
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
